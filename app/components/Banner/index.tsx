@@ -30,11 +30,11 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-6 flex justify-center relative'>
-                        <div className='flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute'>
+                        {/* <div className='flex bg-yellow p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute'>
                             <Image src={'/images/Banner/pizza.svg'} alt="pizza-image" width={68} height={68} />
                             <p className='text-lg font-normal'>More than 500+ <br /> recipes.</p>
-                        </div>
-                        <Image src="/images/Banner/banner-image.png" alt="nothing" width={1000} height={805} />
+                        </div> */}
+                        <Image src="/images/Banner/banner-image2.png" alt="nothing" width={1000} height={805} />
                     </div>
                 </div>
             </div>
