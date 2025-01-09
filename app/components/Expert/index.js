@@ -3,16 +3,17 @@ import Slider from "react-slick";
 import React, { Component } from "react";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // CAROUSEL DATA
 
-interface DataType {
-    profession: string;
-    name: string;
-    imgSrc: string;
-}
+// interface DataType {
+//     profession: string;
+//     name: string;
+//     imgSrc: string;
+// }
 
-const postData: DataType[] = [
+const postData = [
     {
         profession: 'Senior Chef',
         name: 'Shoo Thar Mien',
@@ -109,7 +110,7 @@ export default class MultipleItems extends Component {
                         </Fade>
                     </div>
 
-                    <Slider {...settings}>
+                    <Slider  {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>
                                 <div className='m-3 py-14 my-10 text-center'>
