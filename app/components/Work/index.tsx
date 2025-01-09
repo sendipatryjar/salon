@@ -15,28 +15,28 @@ interface cardDataType {
 const cardData: cardDataType[] = [
     {
         imgSrc: '/images/Features/featureOne.svg',
-        heading: "Menu variations",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        heading: "Treatment Wajah",
+        subheading: "Rawat Wajah kamu agar lebih sehat dan cerah",
+        link: 'Lihat Detail'
     },
     {
         imgSrc: '/images/Features/featureTwo.svg',
-        heading: "Cooking warw",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        heading: "Treatment Rambut",
+        subheading: "Rawat Rambut cantikmu agar selalu sehat",
+        link: 'Lihat Detail'
     },
     {
         imgSrc: '/images/Features/featureThree.svg',
-        heading: "Best chef",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        heading: "Body Treatment",
+        subheading: "Rawat tubuhmu agar segar dan menarik",
+        link: 'Lihat Detail'
     },
     {
-        imgSrc: '/images/Features/featureFour.svg',
-        heading: "Fast food",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
-    }
+        imgSrc: '/images/Features/featureThree.svg',
+        heading: "All Treatment",
+        subheading: "Coba semua paket treatment yang ada",
+        link: 'Lihat Detail'
+    },
 
 ]
 
@@ -51,7 +51,7 @@ const Work = () => {
                         <h3 className='text-pink text-lg font-normal mb-3 ls-51 uppercase'>Features</h3>
                     </Fade>
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Get a many of interesting <br /> features.</p>
+                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Cobalah Treatment menarik yang ada  <br />dikami sekarang .</p>
                     </Fade>
                 </div>
 

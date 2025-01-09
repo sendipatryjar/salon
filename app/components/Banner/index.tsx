@@ -15,16 +15,16 @@ const Banner = () => {
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
                             <h1 className="text-4xl lg:text-7xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center">
-                                Cook anything <br /> with the experts
+                                Perawatan Kecantikan
                             </h1>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br /> accusantium doloremque laudantium, totam</p>
+                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Treatment Kecantikan yang memanjakan tubuhmu <br /> sekarang sudah hadir, dengan harga yang terjangkau.</p>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                             <div className='md:flex align-middle justify-center lg:justify-start'>
-                                <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-14 mr-6'><Link href='#cook-section'>Lets cook</Link></button>
-                                <button className='flex border w-full md:w-auto mt-5 md:mt-0 border-pink justify-center rounded-full text-xl font-medium items-center py-5 px-10 text-pink hover:text-white hover:bg-pink'><Link href='#about-section'>Explore now</Link></button>
+                                <button className='text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-14 mr-6'><Link href='#cook-section'>Ayo coba</Link></button>
+                                <button className='flex border w-full md:w-auto mt-5 md:mt-0 border-pink justify-center rounded-full text-xl font-medium items-center py-5 px-10 text-pink hover:text-white hover:bg-pink'><Link href='#about-section'>Lihat Lainnya</Link></button>
                             </div>
                         </Fade>
                     </div>
